@@ -1,0 +1,2958 @@
+00:10:22 **** Rebuild of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o C_project.exe main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib/libmingw32.a(lib64_libmingw32_a-crtexewin.o):crtexewin.c:(.text+0x130): undefined reference to `WinMain'
+collect2.exe: error: ld returned 1 exit status
+00:22:12 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:39:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   39 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:40:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   40 |                 loop->next = link ;
+      |                            ^
+..\main.c:46:25: error: assignment to expression with array type
+   46 |         link->data.name = ptr->name ;
+      |                         ^
+00:23:25 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:39:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   39 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:40:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   40 |                 loop->next = link ;
+      |                            ^
+gcc -o C_project.exe main.o 
+Info: Nothing to build for C_project
+00:38:27 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:49:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   49 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:50:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   50 |                 loop->next = link ;
+      |                            ^
+..\main.c:53:25: error: 'ptr' undeclared (first use in this function)
+   53 |         link->data.id = ptr->id ;
+      |                         ^~~
+..\main.c:53:25: note: each undeclared identifier is reported only once for each function it appears in
+00:50:13 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:56:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   56 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:57:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   57 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'main':
+..\main.c:72:23: warning: unused variable 'loop' [-Wunused-variable]
+   72 |         struct node * loop=NULL ;
+      |                       ^~~~
+gcc -o C_project.exe main.o 
+00:57:29 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:57:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   57 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:58:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   58 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:83:53: error: 'link' undeclared (first use in this function)
+   83 |                         printf(" student id= %d \n",link->data.id) ;
+      |                                                     ^~~~
+..\main.c:83:53: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:86:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   86 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'main':
+..\main.c:92:23: warning: unused variable 'loop' [-Wunused-variable]
+   92 |         struct node * loop=NULL ;
+      |                       ^~~~
+00:57:50 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:57:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   57 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:58:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   58 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:86:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   86 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'main':
+..\main.c:92:23: warning: unused variable 'loop' [-Wunused-variable]
+   92 |         struct node * loop=NULL ;
+      |                       ^~~~
+gcc -o C_project.exe main.o 
+01:13:49 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'main':
+..\main.c:153:23: warning: unused variable 'loop' [-Wunused-variable]
+  153 |         struct node * loop=NULL ;
+      |                       ^~~~
+gcc -o C_project.exe main.o 
+01:45:30 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:163:16: error: 'cuurent' undeclared (first use in this function); did you mean 'current'?
+  163 |         prev = cuurent ;
+      |                ^~~~~~~
+      |                current
+..\main.c:163:16: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'main':
+..\main.c:176:23: warning: unused variable 'loop' [-Wunused-variable]
+  176 |         struct node * loop=NULL ;
+      |                       ^~~~
+01:45:42 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'main':
+..\main.c:176:23: warning: unused variable 'loop' [-Wunused-variable]
+  176 |         struct node * loop=NULL ;
+      |                       ^~~~
+gcc -o C_project.exe main.o 
+01:52:08 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c:190:1: warning: implicit declaration of function 'retuen' [-Wimplicit-function-declaration]
+  190 | retuen (sum /size ) ;
+      | ^~~~~~
+..\main.c: In function 'main':
+..\main.c:195:23: warning: unused variable 'loop' [-Wunused-variable]
+  195 |         struct node * loop=NULL ;
+      |                       ^~~~
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:191:1: warning: control reaches end of non-void function [-Wreturn-type]
+  191 | }
+      | ^
+gcc -o C_project.exe main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: main.o: in function `calculateAverageGPA':
+D:/standard_embedded/projects/C_project/C_project/Debug/../main.c:190: undefined reference to `retuen'
+collect2.exe: error: ld returned 1 exit status
+01:52:18 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'main':
+..\main.c:195:23: warning: unused variable 'loop' [-Wunused-variable]
+  195 |         struct node * loop=NULL ;
+      |                       ^~~~
+gcc -o C_project.exe main.o 
+01:58:13 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+..\main.c: In function 'main':
+..\main.c:221:23: warning: unused variable 'loop' [-Wunused-variable]
+  221 |         struct node * loop=NULL ;
+      |                       ^~~~
+gcc -o C_project.exe main.o 
+02:15:46 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+..\main.c: In function 'main':
+..\main.c:235:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  235 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:235:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  235 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:251:49: error: expected declaration specifiers or '...' before '&' token
+  251 |                                 void addStudent(&s1);
+      |                                                 ^
+..\main.c:254:26: error: expected expression before 'void'
+  254 |          displayStudents(void);
+      |                          ^~~~
+..\main.c:254:10: error: too many arguments to function 'displayStudents'
+  254 |          displayStudents(void);
+      |          ^~~~~~~~~~~~~~~
+..\main.c:72:6: note: declared here
+   72 | void displayStudents(void)
+      |      ^~~~~~~~~~~~~~~
+..\main.c:277:23: warning: unused variable 'loop' [-Wunused-variable]
+  277 |         struct node * loop=NULL ;
+      |                       ^~~~
+02:15:49 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+..\main.c: In function 'main':
+..\main.c:235:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  235 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:235:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  235 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:251:49: error: expected declaration specifiers or '...' before '&' token
+  251 |                                 void addStudent(&s1);
+      |                                                 ^
+..\main.c:254:26: error: expected expression before 'void'
+  254 |          displayStudents(void);
+      |                          ^~~~
+..\main.c:254:10: error: too many arguments to function 'displayStudents'
+  254 |          displayStudents(void);
+      |          ^~~~~~~~~~~~~~~
+..\main.c:72:6: note: declared here
+   72 | void displayStudents(void)
+      |      ^~~~~~~~~~~~~~~
+..\main.c:277:23: warning: unused variable 'loop' [-Wunused-variable]
+  277 |         struct node * loop=NULL ;
+      |                       ^~~~
+02:15:54 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+..\main.c: In function 'main':
+..\main.c:235:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  235 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:235:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  235 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:254:26: error: expected expression before 'void'
+  254 |          displayStudents(void);
+      |                          ^~~~
+..\main.c:254:10: error: too many arguments to function 'displayStudents'
+  254 |          displayStudents(void);
+      |          ^~~~~~~~~~~~~~~
+..\main.c:72:6: note: declared here
+   72 | void displayStudents(void)
+      |      ^~~~~~~~~~~~~~~
+..\main.c:277:23: warning: unused variable 'loop' [-Wunused-variable]
+  277 |         struct node * loop=NULL ;
+      |                       ^~~~
+02:16:09 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+..\main.c: In function 'main':
+..\main.c:235:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  235 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:235:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  235 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:278:23: warning: unused variable 'loop' [-Wunused-variable]
+  278 |         struct node * loop=NULL ;
+      |                       ^~~~
+..\main.c:235:4: warning: 'press' is used uninitialized [-Wuninitialized]
+  235 |    scanf("%d \n ", press);
+      |    ^~~~~~~~~~~~~~~~~~~~~~
+..\main.c:234:8: note: 'press' was declared here
+  234 |    int press ;
+      |        ^~~~~
+gcc -o C_project.exe main.o 
+02:16:15 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+..\main.c: In function 'main':
+..\main.c:235:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  235 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:235:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  235 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:255:33: error: expected expression before 'void'
+  255 |                 displayStudents(void);
+      |                                 ^~~~
+..\main.c:255:17: error: too many arguments to function 'displayStudents'
+  255 |                 displayStudents(void);
+      |                 ^~~~~~~~~~~~~~~
+..\main.c:72:6: note: declared here
+   72 | void displayStudents(void)
+      |      ^~~~~~~~~~~~~~~
+..\main.c:278:23: warning: unused variable 'loop' [-Wunused-variable]
+  278 |         struct node * loop=NULL ;
+      |                       ^~~~
+02:16:18 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+..\main.c: In function 'main':
+..\main.c:235:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  235 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:235:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  235 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:255:33: error: expected expression before 'void'
+  255 |                 displayStudents(void);
+      |                                 ^~~~
+..\main.c:255:17: error: too many arguments to function 'displayStudents'
+  255 |                 displayStudents(void);
+      |                 ^~~~~~~~~~~~~~~
+..\main.c:72:6: note: declared here
+   72 | void displayStudents(void)
+      |      ^~~~~~~~~~~~~~~
+..\main.c:278:23: warning: unused variable 'loop' [-Wunused-variable]
+  278 |         struct node * loop=NULL ;
+      |                       ^~~~
+02:16:22 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+..\main.c: In function 'main':
+..\main.c:235:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  235 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:235:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  235 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:278:23: warning: unused variable 'loop' [-Wunused-variable]
+  278 |         struct node * loop=NULL ;
+      |                       ^~~~
+..\main.c:235:4: warning: 'press' is used uninitialized [-Wuninitialized]
+  235 |    scanf("%d \n ", press);
+      |    ^~~~~~~~~~~~~~~~~~~~~~
+..\main.c:234:8: note: 'press' was declared here
+  234 |    int press ;
+      |        ^~~~~
+gcc -o C_project.exe main.o 
+02:25:38 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+..\main.c: In function 'main':
+..\main.c:236:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  236 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:236:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  236 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:259:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  259 |                 scanf("%d \n " , id)
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:259:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  259 |                 scanf("%d \n " , id)
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:259:37: error: expected ';' before 'searchStudentByID'
+  259 |                 scanf("%d \n " , id)
+      |                                     ^
+      |                                     ;
+  260 |             searchStudentByID(id);
+      |             ~~~~~~~~~~~~~~~~~        
+..\main.c:264:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  264 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:264:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  264 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:269:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  269 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:269:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  269 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+02:25:40 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+..\main.c: In function 'main':
+..\main.c:236:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  236 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:236:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  236 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:259:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  259 |                 scanf("%d \n " , id)
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:259:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  259 |                 scanf("%d \n " , id)
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:259:37: error: expected ';' before 'searchStudentByID'
+  259 |                 scanf("%d \n " , id)
+      |                                     ^
+      |                                     ;
+  260 |             searchStudentByID(id);
+      |             ~~~~~~~~~~~~~~~~~        
+..\main.c:264:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  264 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:264:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  264 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:269:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  269 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:269:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  269 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+02:26:19 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+..\main.c: In function 'main':
+..\main.c:236:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  236 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:236:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  236 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:259:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  259 |                 scanf("%d \n " , id)
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:259:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  259 |                 scanf("%d \n " , id)
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:259:37: error: expected ';' before 'searchStudentByID'
+  259 |                 scanf("%d \n " , id)
+      |                                     ^
+      |                                     ;
+  260 |             searchStudentByID(id);
+      |             ~~~~~~~~~~~~~~~~~        
+..\main.c:264:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  264 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:264:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  264 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:269:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  269 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:269:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  269 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:278:30: error: expected expression before 'void'
+  278 |             searchHighestGPA(void);
+      |                              ^~~~
+..\main.c:278:13: error: too many arguments to function 'searchHighestGPA'
+  278 |             searchHighestGPA(void);
+      |             ^~~~~~~~~~~~~~~~
+..\main.c:118:6: note: declared here
+  118 | void searchHighestGPA(void)
+      |      ^~~~~~~~~~~~~~~~
+02:26:26 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+..\main.c: In function 'main':
+..\main.c:236:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  236 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:236:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  236 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:259:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  259 |                 scanf("%d \n " , id)
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:259:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  259 |                 scanf("%d \n " , id)
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:259:37: error: expected ';' before 'searchStudentByID'
+  259 |                 scanf("%d \n " , id)
+      |                                     ^
+      |                                     ;
+  260 |             searchStudentByID(id);
+      |             ~~~~~~~~~~~~~~~~~        
+..\main.c:264:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  264 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:264:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  264 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:269:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  269 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:269:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  269 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+02:26:36 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+..\main.c: In function 'main':
+..\main.c:236:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  236 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:236:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  236 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:259:38: error: expected ';' before 'searchStudentByID'
+  259 |                 scanf("%d \n " , &id)
+      |                                      ^
+      |                                      ;
+  260 |             searchStudentByID(id);
+      |             ~~~~~~~~~~~~~~~~~         
+..\main.c:264:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  264 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:264:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  264 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:269:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  269 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:269:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  269 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+02:26:43 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+..\main.c: In function 'main':
+..\main.c:236:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  236 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:236:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  236 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:259:36: error: expected ';' before 'searchStudentByID'
+  259 |                 scanf("%d\n" , &id)
+      |                                    ^
+      |                                    ;
+  260 |             searchStudentByID(id);
+      |             ~~~~~~~~~~~~~~~~~       
+..\main.c:264:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  264 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:264:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  264 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:269:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  269 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:269:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  269 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+02:26:48 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+..\main.c: In function 'main':
+..\main.c:236:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  236 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:236:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  236 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:259:35: error: expected ';' before 'searchStudentByID'
+  259 |                 scanf("%d\n", &id)
+      |                                   ^
+      |                                   ;
+  260 |             searchStudentByID(id);
+      |             ~~~~~~~~~~~~~~~~~      
+..\main.c:264:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  264 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:264:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  264 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:269:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  269 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:269:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  269 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+02:26:50 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+..\main.c: In function 'main':
+..\main.c:236:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  236 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:236:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  236 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:259:35: error: expected ';' before 'searchStudentByID'
+  259 |                 scanf("%d\n", &id)
+      |                                   ^
+      |                                   ;
+  260 |             searchStudentByID(id);
+      |             ~~~~~~~~~~~~~~~~~      
+..\main.c:264:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  264 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:264:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  264 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:269:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  269 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:269:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  269 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+02:26:55 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+..\main.c: In function 'main':
+..\main.c:236:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  236 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:236:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  236 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:259:34: error: expected ';' before 'searchStudentByID'
+  259 |                 scanf("%d\n",&id)
+      |                                  ^
+      |                                  ;
+  260 |             searchStudentByID(id);
+      |             ~~~~~~~~~~~~~~~~~     
+..\main.c:264:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  264 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:264:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  264 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:269:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  269 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:269:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  269 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+02:27:06 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+..\main.c: In function 'main':
+..\main.c:236:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  236 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:236:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  236 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:260:34: error: expected ';' before 'searchStudentByID'
+  260 |                 scanf("%d\n",&id)
+      |                                  ^
+      |                                  ;
+  261 |             searchStudentByID(id);
+      |             ~~~~~~~~~~~~~~~~~     
+..\main.c:265:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  265 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:265:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  265 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:270:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  270 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:270:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  270 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:235:8: warning: unused variable 'id' [-Wunused-variable]
+  235 |    int id ;
+      |        ^~
+02:27:17 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+..\main.c: In function 'main':
+..\main.c:236:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  236 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:236:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  236 |    scanf("%d \n ", press);
+      |           ~^       ~~~~~
+      |            |       |
+      |            int *   int
+..\main.c:264:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  264 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:264:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  264 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:269:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  269 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:269:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  269 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:236:4: warning: 'press' is used uninitialized [-Wuninitialized]
+  236 |    scanf("%d \n ", press);
+      |    ^~~~~~~~~~~~~~~~~~~~~~
+..\main.c:234:8: note: 'press' was declared here
+  234 |    int press ;
+      |        ^~~~~
+gcc -o C_project.exe main.o 
+Info: Nothing to build for C_project
+02:30:18 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+..\main.c: In function 'main':
+..\main.c:264:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  264 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:264:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  264 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:269:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  269 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+..\main.c:269:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  269 |                 scanf("%d \n " , id);
+      |                        ~^        ~~
+      |                         |        |
+      |                         int *    int
+gcc -o C_project.exe main.o 
+Info: Nothing to build for C_project
+02:30:54 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+gcc -o C_project.exe main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C_project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:31:08 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -o C_project.exe main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C_project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:31:08 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -o C_project.exe main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C_project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:31:09 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -o C_project.exe main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C_project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:31:19 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -o C_project.exe main.o 
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+02:31:39 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+gcc -o C_project.exe main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C_project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:31:44 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -o C_project.exe main.o 
+02:32:05 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+gcc -o C_project.exe main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C_project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:32:10 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -o C_project.exe main.o 
+Info: Nothing to build for C_project
+02:32:26 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+gcc -o C_project.exe main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C_project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:32:31 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -o C_project.exe main.o 
+Info: Nothing to build for C_project
+02:33:55 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+gcc -o C_project.exe main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C_project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:33:59 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -o C_project.exe main.o 
+Info: Nothing to build for C_project
+02:45:46 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+gcc -o C_project.exe main.o 
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+02:45:57 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+gcc -o C_project.exe main.o 
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+02:48:25 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:58:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   58 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:59:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   59 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:87:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   87 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:104:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  104 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:112:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  112 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:139:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  139 | loop=loop->next ;
+      |     ^
+..\main.c:124:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  124 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:164:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  164 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:188:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  188 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:204:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  204 |                 current=current->next;
+      |                        ^
+gcc -o C_project.exe main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C_project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:48:29 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -o C_project.exe main.o 
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+02:56:40 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:41:18: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   41 |             loop = loop->next;
+      |                  ^
+..\main.c:60:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   60 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:61:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   61 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:89:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   89 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:106:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  106 |         if(loop->data.id = id)
+      |            ^~~~
+..\main.c:114:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  114 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:141:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  141 | loop=loop->next ;
+      |     ^
+..\main.c:126:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  126 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:166:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  166 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:190:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  190 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:206:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  206 |                 current=current->next;
+      |                        ^
+gcc -o C_project.exe main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C_project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:56:44 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -o C_project.exe main.o 
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+03:06:10 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:41:18: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   41 |             loop = loop->next;
+      |                  ^
+..\main.c:60:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   60 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:61:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   61 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:89:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   89 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:114:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  114 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:141:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  141 | loop=loop->next ;
+      |     ^
+..\main.c:126:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  126 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:166:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  166 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:190:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  190 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:206:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  206 |                 current=current->next;
+      |                        ^
+gcc -o C_project.exe main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C_project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+03:06:12 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -o C_project.exe main.o 
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+03:11:49 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:41:18: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   41 |             loop = loop->next;
+      |                  ^
+..\main.c:60:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   60 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:61:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   61 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:89:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   89 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:114:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  114 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:141:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  141 | loop=loop->next ;
+      |     ^
+..\main.c:126:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  126 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:166:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  166 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:190:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  190 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:206:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  206 |                 current=current->next;
+      |                        ^
+gcc -o C_project.exe main.o 
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+03:12:06 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:41:18: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   41 |             loop = loop->next;
+      |                  ^
+..\main.c:60:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   60 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:61:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   61 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:89:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   89 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:114:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  114 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:141:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  141 | loop=loop->next ;
+      |     ^
+..\main.c:126:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  126 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:166:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  166 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:190:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  190 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:206:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  206 |                 current=current->next;
+      |                        ^
+gcc -o C_project.exe main.o 
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+03:15:25 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:41:18: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   41 |             loop = loop->next;
+      |                  ^
+..\main.c:60:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   60 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:61:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   61 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:89:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   89 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:114:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  114 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:141:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  141 | loop=loop->next ;
+      |     ^
+..\main.c:126:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  126 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:166:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  166 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:190:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  190 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:206:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  206 |                 current=current->next;
+      |                        ^
+gcc -o C_project.exe main.o 
+Info: Nothing to build for C_project
+03:16:32 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:41:18: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   41 |             loop = loop->next;
+      |                  ^
+..\main.c:60:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   60 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:61:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   61 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:89:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   89 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:114:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  114 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:141:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  141 | loop=loop->next ;
+      |     ^
+..\main.c:126:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  126 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:166:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  166 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:190:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  190 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:206:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  206 |                 current=current->next;
+      |                        ^
+gcc -o C_project.exe main.o 
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+03:19:23 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'addStudent':
+..\main.c:41:18: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   41 |             loop = loop->next;
+      |                  ^
+..\main.c:60:49: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   60 |                 while (loop->next != NULL ) loop= loop->next ;
+      |                                                 ^
+..\main.c:61:28: warning: assignment to 'struct student *' from incompatible pointer type 'struct node *' [-Wincompatible-pointer-types]
+   61 |                 loop->next = link ;
+      |                            ^
+..\main.c: In function 'displayStudents':
+..\main.c:89:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+   89 | loop=loop->next ;
+      |     ^
+..\main.c: In function 'searchStudentByID':
+..\main.c:114:13: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  114 |         loop=loop->next ;
+      |             ^
+..\main.c: In function 'searchHighestGPA':
+..\main.c:141:5: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  141 | loop=loop->next ;
+      |     ^
+..\main.c:126:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  126 | int id = 0;
+      |     ^~
+..\main.c: In function 'deleteStudent':
+..\main.c:166:17: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  166 |         current = current->next ;
+      |                 ^
+..\main.c: In function 'calculateAverageGPA':
+..\main.c:190:21: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  190 |                 loop=loop->next;
+      |                     ^
+..\main.c: In function 'updateStudent':
+..\main.c:206:24: warning: assignment to 'struct node *' from incompatible pointer type 'struct student *' [-Wincompatible-pointer-types]
+  206 |                 current=current->next;
+      |                        ^
+gcc -o C_project.exe main.o 
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+03:40:35 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'searchHighestGPA':
+..\main.c:126:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  126 | int id = 0;
+      |     ^~
+gcc -o C_project.exe main.o 
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+03:40:48 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'searchHighestGPA':
+..\main.c:126:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  126 | int id = 0;
+      |     ^~
+gcc -o C_project.exe main.o 
+03:41:21 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'searchHighestGPA':
+..\main.c:137:17: error: 'id' undeclared (first use in this function)
+  137 |                 id=loop->data.id;
+      |                 ^~
+..\main.c:137:17: note: each undeclared identifier is reported only once for each function it appears in
+03:41:23 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'searchHighestGPA':
+..\main.c:137:17: error: 'id' undeclared (first use in this function)
+  137 |                 id=loop->data.id;
+      |                 ^~
+..\main.c:137:17: note: each undeclared identifier is reported only once for each function it appears in
+03:41:29 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'searchHighestGPA':
+..\main.c:126:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  126 | int id = 0;
+      |     ^~
+gcc -o C_project.exe main.o 
+03:42:00 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'searchHighestGPA':
+..\main.c:126:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  126 | int id ;
+      |     ^~
+gcc -o C_project.exe main.o 
+03:42:15 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'searchHighestGPA':
+..\main.c:126:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  126 | int id ;
+      |     ^~
+gcc -o C_project.exe main.o 
+03:42:21 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'searchHighestGPA':
+..\main.c:126:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  126 | int id ;
+      |     ^~
+gcc -o C_project.exe main.o 
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+03:44:48 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'searchHighestGPA':
+..\main.c:126:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  126 | int id ;
+      |     ^~
+gcc -o C_project.exe main.o 
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+03:51:47 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'searchHighestGPA':
+..\main.c:126:5: warning: variable 'id' set but not used [-Wunused-but-set-variable]
+  126 | int id ;
+      |     ^~
+gcc -o C_project.exe main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C_project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+03:51:48 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -o C_project.exe main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C_project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+03:51:56 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -o C_project.exe main.o 
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+03:53:57 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o C_project.exe main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C_project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+03:54:06 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -o C_project.exe main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C_project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+03:54:18 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -o C_project.exe main.o 
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+11:04:16 **** Build of configuration Debug for project exp ****
+make all 
+Building file: ../exp.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"exp.d" -MT"exp.o" -c -o "exp.o" "../exp.c"
+make: *** [exp.o] Error -1073741502
+"make all" terminated with exit code 2. Build might be incomplete.
+Info: Nothing to build for C_project
+11:04:51 **** Incremental Build of configuration Debug for project exp ****
+make all 
+Building file: ../exp.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"exp.d" -MT"exp.o" -c -o "exp.o" "../exp.c"
+make: *** [exp.o] Error -1073741502
+"make all" terminated with exit code 2. Build might be incomplete.
+Info: Nothing to build for C_project
+11:05:12 **** Incremental Build of configuration Debug for project exp ****
+make all 
+Building file: ../exp.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"exp.d" -MT"exp.o" -c -o "exp.o" "../exp.c"
+make: *** [exp.o] Error -1073741502
+"make all" terminated with exit code 2. Build might be incomplete.
+Info: Nothing to build for C_project
+11:06:47 **** Incremental Build of configuration Debug for project exp ****
+make all 
+Building file: ../exp.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"exp.d" -MT"exp.o" -c -o "exp.o" "../exp.c"
+make: *** [exp.o] Error -1073741502
+"make all" terminated with exit code 2. Build might be incomplete.
+Info: Nothing to build for C_project
+11:14:07 **** Incremental Build of configuration Debug for project exp ****
+make all 
+Building file: ../exp.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"exp.d" -MT"exp.o" -c -o "exp.o" "../exp.c"
+In file included from ../exp.c:8:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../exp.c
+ 
+Building target: exp.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,exp.map -mmcu=atmega32 -o "exp.elf"  ./exp.o   
+Finished building target: exp.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S exp.elf  >"exp.lss"
+Finished building: exp.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex exp.elf  "exp.hex"
+Finished building: exp.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 exp.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    3512 bytes (10.7% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+Info: Nothing to build for C_project
+11:14:09 **** Incremental Build of configuration Debug for project exp ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 exp.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    3512 bytes (10.7% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+Info: Nothing to build for C_project
+11:15:16 **** Incremental Build of configuration Debug for project exp ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 exp.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    3512 bytes (10.7% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+Info: Nothing to build for C_project
+11:17:00 **** Incremental Build of configuration Debug for project exp ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 exp.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    3512 bytes (10.7% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:17:01 **** Build of configuration Debug for project exp2 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: libexp2.a
+Invoking: AVR Archiver
+avr-ar -r  "libexp2.a"  ./main.o  
+d:\PROGRAMS\eclipse\bin\avr-ar.exe: creating libexp2.a
+Finished building target: libexp2.a
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S libexp2.a  >"libexp2.lss"
+Finished building: libexp2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 libexp2.a
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:       0 bytes (0.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+Info: Nothing to build for C_project
+11:17:02 **** Incremental Build of configuration Debug for project exp ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 exp.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    3512 bytes (10.7% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:17:03 **** Incremental Build of configuration Debug for project exp2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 libexp2.a
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:       0 bytes (0.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+Info: Nothing to build for C_project
+11:17:11 **** Incremental Build of configuration Debug for project exp ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 exp.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    3512 bytes (10.7% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:17:12 **** Incremental Build of configuration Debug for project exp2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 libexp2.a
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:       0 bytes (0.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+Info: Nothing to build for C_project
+11:17:15 **** Incremental Build of configuration Debug for project exp ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 exp.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    3512 bytes (10.7% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:17:16 **** Incremental Build of configuration Debug for project exp2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 libexp2.a
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:       0 bytes (0.0% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+Info: Nothing to build for C_project
+14:54:10 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:313:1: warning: "/*" within comment [-Wcomment]
+  313 | /* *      Author: Alkafass
+      |  
+gcc -o C_project.exe main.o 
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+15:00:07 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:1: warning: "/*" within comment [-Wcomment]
+    8 | /* *      Author: Alkafass
+      |  
+gcc -o C_project.exe main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib/libmingw32.a(lib64_libmingw32_a-crtexewin.o):crtexewin.c:(.text+0x130): undefined reference to `WinMain'
+collect2.exe: error: ld returned 1 exit status
+15:00:10 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -o C_project.exe main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib/libmingw32.a(lib64_libmingw32_a-crtexewin.o):crtexewin.c:(.text+0x130): undefined reference to `WinMain'
+collect2.exe: error: ld returned 1 exit status
+15:00:29 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:306:20: warning: statement with no effect [-Wunused-value]
+  306 |             case 8:1
+      |                    ^
+..\main.c:306:21: error: expected ';' before 'printf'
+  306 |             case 8:1
+      |                     ^
+      |                     ;
+  307 |                 printf("\nExiting the program. Goodbye!\n");
+      |                 ~~~~~~
+..\main.c: At top level:
+..\main.c:315:3: error: expected identifier or '(' before '/' token
+  315 |  */
+      |   ^
+15:00:52 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:306:20: warning: statement with no effect [-Wunused-value]
+  306 |             case 8:1
+      |                    ^
+..\main.c:306:21: error: expected ';' before 'printf'
+  306 |             case 8:1
+      |                     ^
+      |                     ;
+  307 |                 printf("\nExiting the program. Goodbye!\n");
+      |                 ~~~~~~
+15:00:53 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:306:20: warning: statement with no effect [-Wunused-value]
+  306 |             case 8:1
+      |                    ^
+..\main.c:306:21: error: expected ';' before 'printf'
+  306 |             case 8:1
+      |                     ^
+      |                     ;
+  307 |                 printf("\nExiting the program. Goodbye!\n");
+      |                 ~~~~~~
+15:01:07 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o C_project.exe main.o 
+Info: Nothing to build for C_project
+10:17:14 **** Rebuild of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o C_project.exe main.o 
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+Info: Nothing to build for C_project
+10:25:12 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o C_project.exe main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C_project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:25:19 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -o C_project.exe main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C_project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:25:21 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -o C_project.exe main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C_project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:26:05 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -o C_project.exe main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C_project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:26:11 **** Incremental Build of configuration Debug for project C_project ****
+Info: Internal Builder is used for build
+gcc -o C_project.exe main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C_project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
